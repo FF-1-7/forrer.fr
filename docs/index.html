@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Electronic Computer Engineer – Industrialisation & Projects</title>
+  <title>François FORRER – Electronic Computer Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: #f5f6f7;
+      background: linear-gradient(180deg, #f5f6f7 0%, #eef0f2 100%);
       color: #222;
       line-height: 1.6;
     }
     .container {
       max-width: 900px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 50px 20px;
+      position: relative;
     }
     h1 {
-      font-size: 36px;
+      font-size: 38px;
       margin-bottom: 5px;
     }
     h2 {
@@ -31,10 +32,23 @@
       margin-top: 50px;
       font-size: 22px;
       border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      padding-bottom: 6px;
+    }
+    .lang-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 14px;
+    }
+    .lang-switch a {
+      text-decoration: none;
+      color: #222;
+    }
+    .lang-switch a:hover {
+      text-decoration: underline;
     }
     .buttons {
-      margin: 30px 0;
+      margin: 35px 0;
       display: flex;
       gap: 15px;
       flex-wrap: wrap;
@@ -46,24 +60,43 @@
       color: #222;
       font-weight: bold;
       transition: 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
     .btn:hover {
       background: #222;
       color: #fff;
     }
+    .btn.linkedin {
+      border-color: #0a66c2;
+      color: #0a66c2;
+    }
+    .btn.linkedin:hover {
+      background: #0a66c2;
+      color: #fff;
+    }
     .skills {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 20px;
-      margin-top: 25px;
+      margin-top: 30px;
     }
     .skill-box {
       background: #fff;
-      padding: 20px;
+      padding: 22px;
       border-left: 4px solid #222;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .skill-title {
+      font-size: 16px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
     footer {
-      margin-top: 60px;
+      margin-top: 70px;
       font-size: 14px;
       color: #666;
     }
@@ -71,26 +104,12 @@
       color: #222;
       text-decoration: none;
     }
-    .lang-switch {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 14px;
-    }
-    .lang-switch a {
-      text-decoration: none;
-      color: #222;
-    }
-    .lang-switch a:hover {
-      text-decoration: underline;
-    }
-
   </style>
 </head>
 <body>
 
-
 <div class="container">
+
   <div class="lang-switch">
     <strong>EN</strong> | <a href="index_fr.html">FR</a>
   </div>
@@ -99,16 +118,19 @@
   <h2>Electronic Computer Engineer – Industrialisation & Project-Oriented Roles</h2>
 
   <div class="buttons">
-    <a class="btn" href="cv_fr.pdf">CV – Français</a>
     <a class="btn" href="cv_en.pdf">CV – English</a>
-    <a class="btn" href="https://www.linkedin.com/in/françois-forrer-1318441ba" target="_blank">LinkedIn</a>
+    <a class="btn" href="cv_fr.pdf">CV – Français</a>
+    <a class="btn linkedin" href="https://www.linkedin.com/in/françois-forrer-1318441ba" target="_blank">
+      in LinkedIn
+    </a>
   </div>
+
   <p>
     Electronic Computer Engineer with a strong interest in industrialisation and
     project-oriented technical roles. Used to transforming engineering concepts
     into robust, manufacturable and production-ready solutions.
   </p>
-  
+
   <p>
     Comfortable in international environments, I combine a pragmatic, hands-on
     technical approach with a global view of processes, production and
@@ -119,37 +141,32 @@
 
   <div class="skills">
     <div class="skill-box">
-      <strong>Industrialisation</strong><br>
+      <div class="skill-title">⚙️ <strong>Industrialisation</strong></div>
       Production readiness, process optimisation, manufacturability,
       cost and quality control.
     </div>
-    
     <div class="skill-box">
-      <strong>Electronics & Systems</strong><br>
+      <div class="skill-title">🔌 <strong>Electronics & Systems</strong></div>
       Electronic design, troubleshooting, hardware / software interaction.
     </div>
-    
     <div class="skill-box">
-      <strong>Project-Oriented Approach</strong><br>
+      <div class="skill-title">📊 <strong>Project-Oriented Approach</strong></div>
       Technical coordination, problem solving, ownership and accountability.
     </div>
-    
     <div class="skill-box">
-      <strong>International Environment</strong><br>
+      <div class="skill-title">🌍 <strong>International Environment</strong></div>
       Multicultural teamwork, expatriation, fluent communication in English
       and French.
     </div>
-
   </div>
 
   <h3>Experience Snapshot</h3>
-    <p>
-      Experience across engineering environments, with a positioning between
-      design and production. Used to working at the interface between R&D,
-      suppliers and industrial teams to ensure reliable and efficient
-      technical solutions.
-    </p>
-
+  <p>
+    Experience across engineering environments, with a positioning between
+    design and production. Used to working at the interface between R&D,
+    suppliers and industrial teams to ensure reliable and efficient
+    technical solutions.
+  </p>
 
   <footer>
     © 2026 – François FORRER ·
